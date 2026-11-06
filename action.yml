@@ -10,4 +10,4 @@ runs:
   steps:
     - name: Print version
       shell: bash
-      run: echo "V0"
+      run: echo "V1"
