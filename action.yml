@@ -1,0 +1,13 @@
+name: "print-version-demo"
+description: "Demo fixture that prints its version. Used to test Dependabot behaviour, do not use."
+author: "getplumber-examples"
+branding:
+  icon: "tag"
+  color: "blue"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Print version
+      shell: bash
+      run: echo "V0"
